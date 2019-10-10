@@ -2,12 +2,12 @@
 vfOS-Hackathon Archetype
 
 # Local launch
-vfOS-Hackathon\hello> npm run start-pc
+archetypeHackathonLyonVfos\app1\hello> npm run start-pc
 
 # Docker 
 
 ## Build a container using this command line 
-vfOS-Hackathon\hello> docker build --tag=helloworld .
+archetypeHackathonLyonVfos\app1\hello> docker build --tag=app1 .
 
 ## Launch the created container with a specific port number
-vfOS-Hackathon\hello> docker run -p 4201:4201 helloworld
+archetypeHackathonLyonVfos\app1\hello> docker run -p 4201:4201 app1
